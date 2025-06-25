@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  my-chart:
+  - apiVersion: v2
+    appVersion: 1.16.2
+    created: "2025-06-25T06:13:53.765422651Z"
+    description: A Helm chart for Kubernetes
+    digest: 8b61aec43d43505f32521c6b75d51cb20c044e7e03c06bbfccae682d5d8b0daa
+    name: my-chart
+    type: application
+    urls:
+    - https://github.com/DANGPP/helm-chart/releases/download/my-chart-0.1.0/my-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-06-25T06:13:53.765430626Z"
