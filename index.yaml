@@ -35,6 +35,16 @@ entries:
   practice-chart:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-06-27T07:11:34.333884663Z"
+    description: A Helm chart for Kubernetes
+    digest: f717ed5db4031493edd9d2b1fb039bfe5dc9ebd94f698c8ed8818125bb7e7c91
+    name: practice-chart
+    type: application
+    urls:
+    - https://github.com/DANGPP/helm-chart/releases/download/practice-chart-0.1.1/practice-chart-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-06-27T06:57:48.782367455Z"
     description: A Helm chart for Kubernetes
     digest: 103c9d887c4f054ad98b58e4e7f0897684e5bfe0bf1136f5f4a29e1652295086
@@ -54,4 +64,4 @@ entries:
     urls:
     - https://github.com/DANGPP/helm-chart/releases/download/practiceChart-0.1.0/practiceChart-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-27T06:57:48.78238108Z"
+generated: "2025-06-27T07:11:34.333895052Z"
