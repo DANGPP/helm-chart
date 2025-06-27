@@ -3,6 +3,16 @@ entries:
   flask-stack:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2025-06-27T02:39:40.948721292Z"
+    description: A Helm chart for deploying Flask-based microservices
+    digest: 992f84ddfc6bd587b54341b93cb1b02534a585d94ee17d72122ee009234db212
+    name: flask-stack
+    type: application
+    urls:
+    - https://github.com/DANGPP/helm-chart/releases/download/flask-stack-0.1.1/flask-stack-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2025-06-27T02:29:12.044709557Z"
     description: A Helm chart for deploying Flask-based microservices
     digest: 720dff1a3b668cf9e45cd1bf167c532715ac8f920ee7b83dd41c179542ed2c59
@@ -22,4 +32,4 @@ entries:
     urls:
     - https://github.com/DANGPP/helm-chart/releases/download/my-chart-0.1.0/my-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-27T02:29:12.044715699Z"
+generated: "2025-06-27T02:39:40.948734316Z"
