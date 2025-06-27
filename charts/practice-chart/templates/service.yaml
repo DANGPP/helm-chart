@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ include "practiceChart.fullname" . }}
+  name: {{ include "practice-chart.fullname" . }}
   labels:
-    {{- include "practiceChart.labels" . | nindent 4 }}
+    {{- include "practice-chart.labels" . | nindent 4 }}
 spec:
   type: {{ .Values.service.type }}
   ports:
@@ -12,4 +12,4 @@ spec:
       protocol: TCP
       name: http
   selector:
-    {{- include "practiceChart.selectorLabels" . | nindent 4 }}
+    {{- include "practice-chart.selectorLabels" . | nindent 4 }}
